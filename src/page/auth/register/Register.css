@@ -1,0 +1,92 @@
+.register {
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-register {
+  width: 400px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-register .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-register .form .input {
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-register .form .input label {
+  font-size: 21px;
+  color: var(--orange-color);
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: 4px;
+}
+
+.card-register .form .input input {
+  padding: 8px;
+  border: 2px solid #aeaeae;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+
+.card-register .form .input input:focus {
+  border: 2px solid var(--orange-color);
+}
+
+.card-register .form .input input::placeholder {
+  color: #9d9b9b;
+}
+
+.card-register .form .last {
+  align-items: center;
+}
+
+.card-register .form .last button {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  font-weight: 500;
+  padding: 6px 30px;
+  border-radius: 7px;
+  border: none;
+  font-size: 20px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.card-register .form p {
+  color: crimson;
+  font-size: 13px;
+  font-weight: 500;
+}

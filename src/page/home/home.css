@@ -1,0 +1,8 @@
+.parent-home {
+  width: 100%;
+  /* height: max-content; */
+}
+
+.home {
+  background-color: var(--white-color);
+}

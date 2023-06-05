@@ -1,0 +1,123 @@
+.product-item {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  background-color: #ececec;
+}
+
+.laptop {
+  padding: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.laptop h1 {
+  width: max-content;
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding: 4px 0;
+}
+
+.laptop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: max-content;
+}
+
+.bi-caret-left,
+.bi-caret-right {
+  position: absolute;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  top: 50%;
+  z-index: 2;
+  width: 40px;
+  height: 80px;
+  font-size: 22px;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+  color: #222;
+  background-color: var(--orange-color);
+  border: 1.5px solid #222;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.bi-caret-right {
+  right: 30px;
+}
+
+.bi-caret-left {
+  left: 50px;
+}
+
+.laptop-item .lap-lap {
+  display: flex;
+  justify-content: center;
+}
+
+.laptop-item .lap {
+  text-decoration: none;
+  width: 350px;
+  cursor: pointer;
+  height: 500px;
+  margin: 10px;
+  display: flex;
+  padding: 2px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.lap img {
+  width: 70%;
+  object-fit: contain;
+  margin: 15px 0;
+}
+
+.lap .child {
+  width: 100%;
+}
+
+.lap h4 {
+  text-align: right;
+  font-size: 20px;
+  padding: 0 10px;
+  color: var(--orange-color);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.child .p-one {
+  width: 100%;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  padding: 0px 4px;
+  margin-bottom: 10px;
+}
+
+.p-one span {
+  color: crimson;
+  padding: 4px 0px;
+}

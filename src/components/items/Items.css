@@ -1,0 +1,353 @@
+.item {
+  width: 100%;
+  padding: 30px;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.offers h4 {
+  font-weight: 600;
+}
+
+.offers h4 span {
+  color: crimson;
+}
+
+.offers h4 i {
+  margin: 0 3px;
+  font-size: 30px;
+}
+
+.offers-offers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* !------------------- offers ----------- */
+
+.body-offers-full {
+  display: flex;
+  width: 48%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  margin: 10px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.body-offers-full .op {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  font-weight: 600p;
+  padding: 4px 17px;
+  background-color: crimson;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  left: 0;
+  top: 0;
+}
+
+.body-offers-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.body-offers-left-h2 {
+  width: 100%;
+  color: var(--orange-color);
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.body-offers-left-rating {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.body-offers-left-rating .rr {
+  font-size: 20px;
+  margin-right: 7px;
+  padding: 4px 6px;
+  color: white;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.body-offers-left-rating .rr i {
+  margin-right: 3px;
+}
+
+.body-offers-left-rating .ee {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.body-offers-left-price {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.body-offers-left-price .price-one {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: crimson;
+  font-size: 18px;
+}
+
+.view {
+  padding: 7px 15px;
+  background-color: #2ecc71;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.view:hover {
+  background-color: rgb(3, 242, 103);
+}
+
+/* ------------ right ------- */
+
+.body-offers-right {
+  width: 40%;
+  text-align: center;
+  height: 400px;
+  padding: 10px 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: 0.5s all linear;
+  -webkit-transition: 0.5s all linear;
+  -moz-transition: 0.5s all linear;
+  -ms-transition: 0.5s all linear;
+  -o-transition: 0.5s all linear;
+}
+
+.body-offers-right img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* !-------------- single offers ------------- */
+.off {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.single-offers {
+  width: 100%;
+  display: flex;
+}
+
+.single-offers-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  border-right: 1px solid #efefef;
+  padding: 10px;
+}
+
+.single-offers-left-h {
+  font-size: 34px;
+  color: var(--orange-color);
+  margin-bottom: 20px;
+}
+
+.single-offers-left-reviews {
+  padding: 10px 0;
+}
+
+.reviews-two {
+  margin-right: 10px;
+  padding: 2px 4px;
+  background-color: #2ecc71;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.reviews-two i {
+  margin-right: 3px;
+}
+
+.reviews-one {
+  font-size: 17px;
+  font-weight: 600;
+  color: #3498db;
+}
+
+.single-offers-left-price {
+  padding: 4px 0;
+  margin-bottom: 7px;
+}
+
+.price-two {
+  font-size: 26px;
+  font-weight: bold;
+  color: crimson;
+  margin-left: 8px;
+}
+
+.price-one {
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.single-offers-left-cart {
+  text-align: right;
+}
+
+.single-offers-left-cart h5 {
+  color: #222;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.single-offers-left-cart-input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.single-offers-left-cart .btn {
+  padding: 6px 5px;
+  background-color: #3498db;
+  font-size: 24px;
+  margin-right: 4px;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s linear all;
+  -webkit-transition: 0.3s linear all;
+  -moz-transition: 0.3s linear all;
+  -ms-transition: 0.3s linear all;
+  -o-transition: 0.3s linear all;
+}
+
+.single-offers-left-cart .btn:hover {
+  background-color: #2980b9;
+}
+
+.single-offers-left-cart input {
+  padding: 5px 5px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 24px;
+  border: 2px solid #2980b9;
+  outline: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: #222;
+}
+
+/* !----------- right ------------- */
+
+.single-offers-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.single-offers-right .top {
+  width: 40%;
+}
+
+.single-offers-right .top img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-offers-right .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.single-offers-right .bottom .img-all {
+  width: 13%;
+  height: 100%;
+  object-fit: contain;
+  border: 3px solid #efefef;
+  border-radius: 3px;
+  margin-right: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  cursor: pointer;
+  -o-border-radius: 3px;
+}
+
+/* !----------------- disc product -------------------- */
+
+.product-description {
+  background-color: #eeeeee;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: right;
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+.product-description-title {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--orange-color);
+}
